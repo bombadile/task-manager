@@ -16,4 +16,5 @@ To install the project you need to clone the files from the repository. And in t
 **PROJECT_FOLDER** - this is the root directory of the project. The default is **task_manager**.
 
 After installing and configuring the project, the database will be filled with a set of test data.
+
 http://localhost:8080/graphql - URL for query execution.
