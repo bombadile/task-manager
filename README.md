@@ -10,7 +10,7 @@ To install the project you need to clone the files from the repository. And in t
     docker-compose build
     docker-compose up -d
     docker-compose run --rm php-cli composer install
-    cat db/dump.sql | docker exec -i PROJECT_FOLDER_mysql_1 /usr/bin/mysql -u root --password=root task_manager #fds
+    cat db/dump.sql | docker exec -i PROJECT_FOLDER_mysql_1 /usr/bin/mysql -u root --password=root task_manager
     sudo chmod -R 777 var
     docker-compose run --rm php-cli composer test
 **PROJECT_FOLDER** - this is the root directory of the project. The default is **task-manager**.
